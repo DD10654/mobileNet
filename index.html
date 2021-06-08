@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Indentification</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Farro&family=KoHo:wght@500&family=Newsreader&family=Oswald:wght@300&family=Raleway:ital,wght@1,500&family=Ubuntu&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+</head>
+<body style="background-color: dodgerblue; font-family: 'KoHo', sans-serif;">
+<center>
+        <div class="jumbotron jumbotron-fluid header col-xs-12">
+
+              <h1 style="background-color: white; color: dodgerblue;">Image Identification App <img src="logo (1).gif"></h1>
+
+          </div>
+          <div class="col-sm-6 col-xs-12 mainDiv">
+              <label>Webcam View</label>
+              <div id="camera"></div>
+              <button onclick="take_snapshot()">Capture Image</button>
+          </div>
+
+          <div class="col-sm-6 col-xs-12 mainDiv">
+            <label>Snapshot</label>
+            <div id="snap"></div>
+            <button onclick="check()">Identify Image</button>
+        </div>
+    </center>
+    <div class="col-xs-12 result">
+      <h4 class="col-sm-6 col-xs-12">
+        <img src="blub.gif" width="70px">
+        <span id="result_text"></span>
+        <br><br><br>
+      </h4>
+    </div>
+
+    <div class="copyRight">Developed By - Aarav Agarwal</div>
+    <script src="main.js"></script>
+</body>
+</html>

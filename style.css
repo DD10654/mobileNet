@@ -1,0 +1,69 @@
+.header img{
+    width: 100px;
+}
+
+.mainDiv {
+    background-color: goldenrod;
+    padding: 10px;
+    margin-top: 15px;
+    border: 3px solid azure;
+}
+
+.mainDiv label {
+    background-color: azure;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 18px azure;
+    border-radius: 10px;
+    width: 310px;
+}
+
+#camera, #snap {
+    border: 5px solid azure;
+    width: 310px;
+    height: 300px;
+    box-shadow: 5px 5px 18px azure;
+    margin-bottom: 10px;
+}
+
+.mainDiv button {
+    width: 310px;
+    font-size: 15px;
+    box-shadow: 5px 5px 18px azure;
+    border: 1px solid;
+}
+
+.result {
+    margin-bottom: 50px;
+}
+
+.result h4 {
+    background-color: azure;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: 5px 5px 18px azure;
+    font-family: 'Newsreader', serif;
+}
+
+.copyRight {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    line-height: 3;
+    text-align: center;
+    font-family: 'Newsreader', serif;
+    background-color: azure;
+    color: gray;
+    font-weight: bolder;
+}
+
+.header {
+    width: 100%;
+    background-color: white;
+}
+
+button {
+    background-color: cadetblue;
+    border-radius: 20px;
+    border: black 10px;
+}
